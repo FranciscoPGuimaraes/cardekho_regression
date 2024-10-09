@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "jupyterconfig"
+version = "0.1.0"
+description = ""
+authors = ["Francisco Pereira Guimarães <francisco.guimaraes@embraer.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+plotly = "^5.24.1"
+scikit-learn = "^1.5.2"
+xgboost = "^2.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+notebook = "^7.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

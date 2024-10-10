@@ -6,7 +6,7 @@ authors = ["Francisco Pereira Guimarães <francisco.guimaraes@embraer.com.br>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.10"
 pandas = "^2.2.3"
 seaborn = "^0.13.2"
 plotly = "^5.24.1"
